@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    border-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+                    /*Cabeçalho*/
+header {                   
+    background:#FFE4C4;
+    height: 200px;
+} 
+
+                    /* Título no cabeçalho */
+header h1 { 
+    font-size: 50px;
+    font-weight: 20px;
+    display: flex;                /* Ativa o flexbox */
+    justify-content: center;     /* Centraliza horizontalmente */
+    color: orangered;
+    border-style: groove;
+
+}
+
+section h1 {
+    color: orangered;
+    font-size: 20px;
+}
+
+                    /* Subtítulo*/
+header h4 {
+    font-size: 20px;
+    font-weight: 10px;
+    display: flex;                /* Ativa o flexbox */
+    justify-content: center;     /* Centraliza horizontalmente */
+    color: brown;
+}
+                    /* Menu de navegação*/
+.link-header {
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;                /* Ativa o flexbox */
+    align-items: right;
+    color: white;
+    display: inline-block;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.leitura h5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.leitura {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+}
+
+.book-br {
+    height: 80px;
+    width: 130px;
+}
+
+.leitura-ingles h5{
+     font-size: 13px;
+    font-weight: bold;
+}
+
+.leitura-ingles {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:150px;
+    top: 229px;
+}
+
+.book-us {
+    height: 80px;
+    width: 130px;
+}
+
+.book-workout {
+    height: 80px;
+    width: 130px;
+}
+
+.shadowing {
+    height: 80px;
+    width: 130px;
+}
+
+.anki {
+    height: 80px;
+    width: 130px;
+}
+
+.college {
+    height: 80px;
+    width: 130px;
+}
+
+.python {
+    height: 80px;
+    width: 130px;
+}
+
+.devclub {
+     height: 80px;
+    width: 130px;
+}
