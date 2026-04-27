@@ -4,7 +4,7 @@
 *{
     margin:0;
     padding:0;
-    border-sizing: border-box;
+    border-inline: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -22,12 +22,12 @@ header h1 {
     justify-content: center;     /* Centraliza horizontalmente */
     color: orangered;
     border-style: groove;
-
 }
 
 section h1 {
     color: orangered;
     font-size: 20px;
+    margin-left: 15px;
 }
 
                     /* Subtítulo*/
@@ -50,6 +50,7 @@ header h4 {
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
+    margin-left: 15px;
 }
 
 .leitura h5 {
@@ -62,15 +63,17 @@ header h4 {
     background: #FFE4C4;
     height: calc(100vh - 340px);
     width: 130px;
+    top: 229px;
+    margin-left: 15px;
 }
-
+                            /* imagem da leitura em inglês*/
 .book-br {
     height: 80px;
     width: 130px;
 }
 
 .leitura-ingles h5{
-     font-size: 13px;
+    font-size: 13px;
     font-weight: bold;
 }
 
@@ -80,41 +83,116 @@ header h4 {
     height: calc(100vh - 340px);
     width: 130px;
     position: absolute;
-    left:150px;
-    top: 229px;
+    left:170px;
+    top: 231px;
+    margin-left: 5px;
 }
-
-.book-us {
+                               /*imagem do book-us*/
+.book-us {                      
     height: 80px;
     width: 130px;
 }
-
+                               /*imagem workout*/
 .book-workout {
     height: 80px;
     width: 130px;
 }
-
+                              /* classe div-workout*/
+.div-workout {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:330px;
+    top: 231px;
+    margin-left: 5px;
+}
+                            /*imagem shadowing*/
 .shadowing {
     height: 80px;
     width: 130px;
 }
-
+                            /*Classe-div-listenig*/
+.div-listening {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:470px;
+    top: 231px;
+    margin-left: 25px;
+}
+                            /*imagem anki*/
 .anki {
     height: 80px;
     width: 130px;
 }
-
+                            /*classe div-anki*/
+.div-anki {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:610px;
+    top: 231px;
+    margin-left: 45px;
+}
+                            /*imagem college*/
 .college {
     height: 80px;
     width: 130px;
 }
-
+                            /*classe div-faculdade*/
+.div-faculdade {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:750px;
+    top: 231px;
+    margin-left: 65px;
+}
+                             /*imagem python*/
 .python {
     height: 80px;
     width: 130px;
 }
-
-.devclub {
-     height: 80px;
+                             /*classe div-python*/
+.div-python {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
     width: 130px;
+    position: absolute;
+    left:890px;
+    top: 231px;
+    margin-left: 85px;
+}
+                             /*imagem devclub*/
+.devclub {
+    height: 80px;
+    width: 130px;
+}
+
+.div-devclub {
+    font-size: 12px;
+    background: #FFE4C4;
+    height: calc(100vh - 340px);
+    width: 130px;
+    position: absolute;
+    left:1030px;
+    top: 231px;
+    margin-left:105px;
+}
+
+footer {
+    background-color: orangered; /* Cor de fundo escura */
+    color: white;           /* Cor do texto para contraste */
+    padding: 20px;          /* Espaçamento interno */
+    text-align: center;
+    margin-top: 30px;
 }
