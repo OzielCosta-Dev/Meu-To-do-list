@@ -51,11 +51,13 @@ header h4 {
     border-radius: 5px;
     text-align: center;
     margin-left: 15px;
+    cursor: pointer;
 }
-
+                            /*título do input Leitura PT-BR*/
 .leitura h5 {
     font-size: 13px;
     font-weight: bold;
+    text-align: center;
 }
 
 .leitura {
@@ -71,10 +73,20 @@ header h4 {
     height: 80px;
     width: 130px;
 }
+                            /*input leitura*/
+.ol-leitura {
+    margin-left:10px;
+}
 
 .leitura-ingles h5{
     font-size: 13px;
     font-weight: bold;
+}
+                            /*título do input Leitura in English*/
+.leitura-ingles h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .leitura-ingles {
@@ -92,10 +104,21 @@ header h4 {
     height: 80px;
     width: 130px;
 }
+                               /*input book-english*/
+.ol-book-english {
+    margin-left:10px;
+}
+
                                /*imagem workout*/
 .book-workout {
     height: 80px;
     width: 130px;
+}
+                               /*título do input Workout*/
+.div-workout h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
                               /* classe div-workout*/
 .div-workout {
@@ -107,12 +130,25 @@ header h4 {
     left:330px;
     top: 231px;
     margin-left: 5px;
+
 }
+                            /*input workout*/
+.ol-workout {
+    margin-left:10px;
+}
+
                             /*imagem shadowing*/
 .shadowing {
     height: 80px;
     width: 130px;
 }
+                            /*título do input Shadowing*/
+.div-listening h5 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
                             /*Classe-div-listenig*/
 .div-listening {
     font-size: 12px;
@@ -124,10 +160,20 @@ header h4 {
     top: 231px;
     margin-left: 25px;
 }
+                           /*input shadowing*/
+.ol-shadowing {
+    margin-left:10px;
+}
                             /*imagem anki*/
 .anki {
     height: 80px;
     width: 130px;
+}
+                            /*título do input anki*/
+.div-anki h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
                             /*classe div-anki*/
 .div-anki {
@@ -140,10 +186,21 @@ header h4 {
     top: 231px;
     margin-left: 45px;
 }
+                             /*ol-anki*/
+.ol-anki {
+    margin-left:10px;
+}
                             /*imagem college*/
 .college {
     height: 80px;
     width: 130px;
+
+}
+                            /*título do input Faculdade*/
+.div-faculdade h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
                             /*classe div-faculdade*/
 .div-faculdade {
@@ -156,10 +213,21 @@ header h4 {
     top: 231px;
     margin-left: 65px;
 }
+                           /*ol-college*/
+.ol-faculdade {
+    margin-left:10px;
+}
+
                              /*imagem python*/
 .python {
     height: 80px;
     width: 130px;
+}
+                            /*título do input python*/
+.div-python h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
                              /*classe div-python*/
 .div-python {
@@ -172,10 +240,20 @@ header h4 {
     top: 231px;
     margin-left: 85px;
 }
+                             /*ol-python*/
+.ol-python {
+    margin-left:10px;
+}
                              /*imagem devclub*/
 .devclub {
     height: 80px;
     width: 130px;
+}
+                             /*título do input Devclub*/
+.div-devclub h5 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .div-devclub {
@@ -188,6 +266,10 @@ header h4 {
     top: 231px;
     margin-left:105px;
 }
+                              /*ol-Devclub*/
+.ol-Devclub {
+    margin-left:10px;
+}
 
 footer {
     background-color: orangered; /* Cor de fundo escura */
@@ -196,3 +278,29 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
+
+@media screen and (max-width: 600px){
+        header {
+            width: 110%;
+            height: 200px;
+            padding: 0;
+            margin: 0;
+            
+        }
+
+        .container{
+           width: 100%;
+           height: 50%;
+           padding: 0;
+           margin: 0;
+        }
+
+        .box {
+            display: block;
+            height: auto;
+            width: 100%;
+            max-width: 300px;
+            position: static;
+        }
+
+    }
